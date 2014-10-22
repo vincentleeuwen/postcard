@@ -13,6 +13,9 @@
 		587D764D19F2CF4F00B5F918 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 587D764C19F2CF4F00B5F918 /* Images.xcassets */; };
 		587D765019F2CF4F00B5F918 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 587D764E19F2CF4F00B5F918 /* LaunchScreen.xib */; };
 		587D765C19F2CF5000B5F918 /* postcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587D765B19F2CF5000B5F918 /* postcardTests.swift */; };
+		587D766619F2D4C100B5F918 /* sagrada.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 587D766519F2D4C100B5F918 /* sagrada.jpg */; };
+		587D766819F4510900B5F918 /* einstein.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 587D766719F4510900B5F918 /* einstein.jpg */; };
+		587D766A19F451B700B5F918 /* Albert_Einstein_1979_USSR_Stamp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 587D766919F451B700B5F918 /* Albert_Einstein_1979_USSR_Stamp.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		587D765519F2CF5000B5F918 /* postcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = postcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		587D765A19F2CF5000B5F918 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		587D765B19F2CF5000B5F918 /* postcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postcardTests.swift; sourceTree = "<group>"; };
+		587D766519F2D4C100B5F918 /* sagrada.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sagrada.jpg; sourceTree = "<group>"; };
+		587D766719F4510900B5F918 /* einstein.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = einstein.jpg; sourceTree = "<group>"; };
+		587D766919F451B700B5F918 /* Albert_Einstein_1979_USSR_Stamp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Albert_Einstein_1979_USSR_Stamp.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,9 @@
 		587D764319F2CF4F00B5F918 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				587D766919F451B700B5F918 /* Albert_Einstein_1979_USSR_Stamp.jpg */,
+				587D766719F4510900B5F918 /* einstein.jpg */,
+				587D766519F2D4C100B5F918 /* sagrada.jpg */,
 				587D764419F2CF4F00B5F918 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,9 +201,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				587D766819F4510900B5F918 /* einstein.jpg in Resources */,
 				587D764B19F2CF4F00B5F918 /* Main.storyboard in Resources */,
+				587D766619F2D4C100B5F918 /* sagrada.jpg in Resources */,
 				587D765019F2CF4F00B5F918 /* LaunchScreen.xib in Resources */,
 				587D764D19F2CF4F00B5F918 /* Images.xcassets in Resources */,
+				587D766A19F451B700B5F918 /* Albert_Einstein_1979_USSR_Stamp.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
